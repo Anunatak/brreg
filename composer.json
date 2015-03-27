@@ -1,0 +1,22 @@
+{
+    "name": "anunatak/brreg",
+    "description": "An implementation of the Brønnøysundregisterene / Enhetsregisteret data API for Laravel",
+    "keywords": ["brreg", "laravel", "company information", "enhetsregisteret"],
+    "authors": [
+        {
+            "name": "Anunatak",
+            "email": "web@anunatak.no"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "5.0.*",
+        "guzzlehttp/guzzle": "~5.2"
+    },
+    "autoload": {
+        "psr-0": {
+            "Anunatak\\Brreg": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
